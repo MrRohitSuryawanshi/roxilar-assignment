@@ -1,0 +1,70 @@
+/* CategoryPieChart.css */
+
+.piechart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.piechart-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Pie chart card styles */
+.piechart-card p {
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .piechart-container {
+        padding: 10px;
+    }
+
+    .piechart-card {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    select {
+        width: 100%;
+    }
+}
